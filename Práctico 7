@@ -1,0 +1,23 @@
+EJ 2 Ejercicio 2
+Suponga que la tabla de páginas para un proceso se ve como la siguiente:
+-Número de Página| -Bit de Validez|   -Bit de Referencia|  -Bit de Modificación|  -Número de Frame|
+0 1 1 0 4
+1 1 1 1 7
+2 0 0 0 -
+3 1 0 0 2
+4 0 0 0 -
+5 1 0 1 0
+Suponiendo que el direccionamiento es por bytes y que el tamaño de página es de 1024
+bytes:
+Indique si las siguientes direcciones provocarán page fault o no. En caso de ser un acceso a
+memoria residente: ¿Qué dirección física se corresponde con las siguientes direcciones
+virtuales?
+a. 1052
+b. 2221
+c. 5499
+
+                                   (1052/1024)=1  (1024)       
+a) Tam pag=1024 => Dir Lógica(Virtual)= |N°pag  |desp  | --> |1  | 1024| 
+                      (1052-1024)(7 por letra)
+Dir Fisica  |N°Frame | desp |--> |7  | 28 |
+=> Dir Fisica = N°Frame xtam pag + desp= |7x1024 + 28|;
