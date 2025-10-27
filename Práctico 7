@@ -21,3 +21,12 @@ a) Tam pag=1024 => Dir Lógica(Virtual)= |N°pag  |desp  | --> |1  | 1024|
                       (1052-1024)(7 por letra)
 Dir Fisica  |N°Frame | desp |--> |7  | 28 |
 => Dir Fisica = N°Frame xtam pag + desp= |7x1024 + 28|;
+b) page fault(pag 2)
+
+
+                  |N°pag  |desp  |
+c)5499/1024=5. => |1  | 1024| ->Dir Virtual
+
+(1024x5)=5120 
+5499-5120=379
+Dir Fisica  |N°Frame | desp |--> |2  | 379 |
