@@ -15,3 +15,30 @@ Asignacion por Lista:
  -Acceso de forma lineal. El puntero usa espacio en bloques, se guarda el 
  -Perder la referencia implica perder gan parte de la info del archivo
 
+E2)
+
+a) Se crean los siguientes archivos:                               
+Archivo Tamaño  Bl.req |Bloques asignados (en orden)
+A.txt   1024   |  2 |      1, 5
+B.txt   1536   |  3 |      6, 9, 2
+C.txt   512    |  1 |      8
+D.txt   2048   |  4 |     3, 7, 10, 4
+dirs| cont
+1   | (A)5
+2   |(B)0
+3   |(D)7
+4   |(D)0
+5   |(A)0
+6   |(B)9
+7   |(D)10
+8   |(C)0
+9   |(B)2
+10  |(D)4
+ 
+Complete la FAT con la información correspondiente. Considere el orden del archivo
+b) Se elimina el archivo B.txt.
+1. Actualice la FAT y marque sus bloques como libres.
+2. Indique cuántos bloques y bytes libres quedan.
+3. Explique si el sistema presenta fragmentación externa después de la
+eliminación, y justifique.
+
