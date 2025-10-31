@@ -24,16 +24,16 @@ B.txt   1536   |  3 |      6, 9, 2
 C.txt   512    |  1 |      8
 D.txt   2048   |  4 |     3, 7, 10, 4
 dirs| cont
-1   | (A)5
-2   |(B)0
-3   |(D)7
-4   |(D)0
-5   |(A)0
-6   |(B)9
-7   |(D)10
-8   |(C)0
-9   |(B)2
-10  |(D)4
+1   | (A)5  -> |1   | (A)5
+2   |(B)0  -> |2   |-1
+3   |(D)7  -> |3   |(D)7
+4   |(D)0  -> |4   |(D)0
+5   |(A)0  -> |5   |(A)0 
+6   |(B)9  -> |6   |-1 
+7   |(D)10 -> |7   |(D)10
+8   |(C)0  -> |8   |(C)0 
+9   |(B)2  -> |9   | -1 
+10  |(D)4  -> |10  |(D)4   3 Bl libres
  
 Complete la FAT con la información correspondiente. Considere el orden del archivo
 b) Se elimina el archivo B.txt.
