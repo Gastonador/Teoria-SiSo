@@ -1,0 +1,17 @@
+Archivo: Unidad logica de almacenamiento 
+
+Archivo: Crear; modificar; Eliminar; Moverlos; Leerlos; Ejecutar;r eposicionar; truncar 
+ -Info: Tamaño; ubicacion; Extensiones; permisos; Nombre; identificador 
+Direccion:
+ -Info:Nombre; id; tamaño; ubicacion, permisos
+ -Acciones: Crear(arch/dir); buscar dentro; Listar; borrar, renombrar; navegar
+
+En el disco los directorios guardan la informacion de descriptores de otros directorios, navegan accedioendo desde la raiz Hacia todos los demas directorios
+En raiz hay tres cosas: Direcciones de Dir1, 2 y 3(o mas?).
+Asignación Contigua
+-asigna bloques de directorios contiguos en el disco a los procesos, genera fragmentacion
+Asignacion por Lista:
+ -Asigna la memoria en una lista encadenada solucionando la fragmentacion.
+ -Acceso de forma lineal. El puntero usa espacio en bloques, se guarda el 
+ -Perder la referencia implica perder gan parte de la info del archivo
+
